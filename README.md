@@ -1,4 +1,4 @@
-# ZoomableDraweeView<a href="https://blog.csdn.net/lzw398756924/article/details/106275575" rel="nofollow">博客地址</a>
+# ZoomableDraweeView <a href="https://blog.csdn.net/lzw398756924/article/details/106275575" rel="nofollow">博客地址</a>
 <h3 >基本介绍</h3>
 <p>　　基于 <a href="https://github.com/facebook/fresco" rel="nofollow">Fresco</a> 的 <a href="https://github.com/facebook/fresco/tree/master/samples/zoomable/src/main/java/com/facebook/samples/zoomable" rel="nofollow">zoomable</a> 实现类 <a href="https://github.com/chrisbanes/PhotoView" rel="nofollow">PhotoView</a> 效果 </p>
 <h3>显示效果</h3>
