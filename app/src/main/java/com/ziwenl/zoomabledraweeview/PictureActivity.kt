@@ -16,6 +16,7 @@ import kotlinx.android.synthetic.main.activity_picture.*
  * Introduction :
  */
 class PictureActivity : AppCompatActivity() {
+
     companion object {
         const val EXTRA_KEY_IS_URL = "isUrl"
 
@@ -25,7 +26,6 @@ class PictureActivity : AppCompatActivity() {
             context.startActivity(intent)
         }
     }
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
