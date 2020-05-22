@@ -40,15 +40,7 @@ Fresco.initialize(this.applicationContext)
 2.复制 <a href="https://github.com/ziwenL/ZoomableDraweeView/tree/master/library/src/main/java/com/ziwenl/library/fresco" rel="nofollow">library/fresco/</a> 下的所有类到项目中
 </li>
 <li>
-3. xml 中引用 MyZoomableImageView 
-<pre>
-<com.ziwenl.library.fresco.MyZoomableImageView
-    android:id="@+id/iv_picture"
-    android:layout_width="match_parent"
-    app:progressBarAutoRotateInterval="1000"
-    app:progressBarImage="@mipmap/loading"
-    android:layout_height="match_parent" />
-</pre>
+3. xml 中引用 MyZoomableImageView
 </li>
 <li>
 4.填充图片及属性设置
