@@ -6,9 +6,6 @@ import android.os.Bundle
 import android.view.WindowManager
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.facebook.drawee.backends.pipeline.Fresco
-import com.facebook.drawee.interfaces.DraweeController
-import com.ziwenl.library.fresco.zoomable.DoubleTapGestureListener
 import kotlinx.android.synthetic.main.activity_picture.*
 
 /**
