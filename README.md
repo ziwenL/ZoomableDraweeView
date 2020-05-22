@@ -34,9 +34,9 @@ dependencies {
 Fresco.initialize(this.applicationContext)
 </pre>
 
-2.复制 <a href="https://github.com/ziwenL/ZoomableDraweeView/tree/master/library/src/main/java/com/ziwenl/library/fresco" rel="nofollow">library/fresco/</a> 下的所有类到项目中
+2.复制 <a href="https://github.com/ziwenL/ZoomableDraweeView/tree/master/library/src/main/java/com/ziwenl/library/fresco"  rel="nofollow">library/fresco/</a> 下的所有类到项目中
 
-3. xml 中引用 MyZoomableImageView
+3.xml 中引用 MyZoomableImageView
 ```xml
 <com.ziwenl.library.fresco.MyZoomableImageView
     android:id="@+id/iv_picture"
