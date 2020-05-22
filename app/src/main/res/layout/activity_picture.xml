@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/black"
+    android:layout_height="match_parent">
+
+    <com.ziwenl.library.fresco.MyZoomableImageView
+        android:id="@+id/iv_picture"
+        android:layout_width="match_parent"
+        app:progressBarAutoRotateInterval="1000"
+        app:progressBarImage="@mipmap/loading"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

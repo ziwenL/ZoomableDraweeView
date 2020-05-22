@@ -1,0 +1,3 @@
+rootProject.name='ZoomableDraweeView'
+include ':app'
+include ':library'
