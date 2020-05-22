@@ -21,8 +21,6 @@ View 重新可见时屏蔽重置缩放倍数
 </ul>
 
 <h3>使用示例</h3>
-<ul>
-<li>
 1.导入Fresco 库，并初始化
 <pre>
 dependencies {
@@ -35,16 +33,19 @@ dependencies {
 //初始化
 Fresco.initialize(this.applicationContext)
 </pre>
-</li>
-<li>
+
 2.复制 <a href="https://github.com/ziwenL/ZoomableDraweeView/tree/master/library/src/main/java/com/ziwenl/library/fresco" rel="nofollow">library/fresco/</a> 下的所有类到项目中
-</li>
-<li>
+
 3. xml 中引用 MyZoomableImageView
-</li>
-<li>
+```xml
+<com.ziwenl.library.fresco.MyZoomableImageView
+    android:id="@+id/iv_picture"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+```
+
 4.填充图片及属性设置
-<pre>
+```kotlin
 val isUrl = intent.getBooleanExtra(EXTRA_KEY_IS_URL, false)
  
 if (isUrl) {
@@ -62,9 +63,7 @@ iv_picture.setSaveScale(true)
 iv_picture.setOnClickListener {
     Toast.makeText(this, "点击", Toast.LENGTH_SHORT).show()
 }
-</pre>
-</li>
-</ul>
+```
 
 <h3>About Me<h3>
 <ul>
